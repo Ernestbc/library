@@ -13,6 +13,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 /** 刘婕刘婕刘婕 */
+/**这是一个测试*/
 public class One extends Activity {
 
 	ListView listView;
