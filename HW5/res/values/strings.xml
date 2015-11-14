@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HW5</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="open">open</string>
+    <string name="cal">计算</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="renpin">测试人品</string>
+    <string name="choosenum">选择号码</string>
+    <string name="choosemsg">选择短信</string>
+    <string name="sendmsg">发送短信</string>
+    <string name="back">返回</string>
+    <string-array name="phone">
+        <item>15800544343</item>
+        <item>15800544343</item>
+        <item>15800544343</item>
+        <item>15800544343</item>
+        <item>15800544343</item>
+        <item>15800544343</item>
+        <item>15800544343</item>
+        <item>15800544343</item>
+    </string-array>
+    <string-array name="msg">
+        <item>么么哒</item>
+        <item>哈哈哈</item>
+        <item>呜呜呜</item>
+        <item>小颖最美腻！！！</item>
+        <item>买买买</item>
+        <item>咩咩咩</item>
+    </string-array>
+
+</resources>
