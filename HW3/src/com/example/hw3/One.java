@@ -12,7 +12,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-
+/** Áõæ¼Áõæ¼Áõæ¼ */
 public class One extends Activity {
 
 	ListView listView;
