@@ -1,4 +1,4 @@
-package com.example.hw3;
+ï»¿package com.example.hw3;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-/** Áõæ¼Áõæ¼Áõæ¼ */
+/** åˆ˜å©•åˆ˜å©•åˆ˜å©• */
 public class One extends Activity {
 
 	ListView listView;
@@ -50,7 +50,7 @@ public class One extends Activity {
 	class A extends BaseAdapter{
 		
 		/**
-		 * ÏîÊı
+		 * é¡¹æ•°
 		 */
 		@Override
 		public int getCount() {
@@ -58,7 +58,7 @@ public class One extends Activity {
 		}
 		
 		/**
-		 * ·µ»ØÏîÊÓÍ¼
+		 * è¿”å›é¡¹è§†å›¾
 		 */
 		@Override
 		public Object getItem(int position) {
@@ -67,7 +67,7 @@ public class One extends Activity {
 		}
 		
 		/**
-		 * ·µ»ØÏîid
+		 * è¿”å›é¡¹id
 		 */
 		@Override
 		public long getItemId(int position) {
@@ -76,27 +76,27 @@ public class One extends Activity {
 		}
 		
 		/**
-		 * ·µ»ØÏîview
+		 * è¿”å›é¡¹view
 		 */
 		public View getView(int position, View convertView, ViewGroup parent) {
-			// ²¼¾ÖÎÄ¼ş½âÎö³Éview
+			// å¸ƒå±€æ–‡ä»¶è§£ææˆview
 			LayoutInflater inflater=getLayoutInflater();
 //			LayoutInflater.from(One.this).inflate(R.layout.oneitem);
 			View view = null;
 			if(view==null){
 			view=inflater.inflate(R.layout.oneitem, parent,false);
 			}
-			//²éÕÒµ½ÏàÓ¦µÄ¿Ø¼ş
+			//æŸ¥æ‰¾åˆ°ç›¸åº”çš„æ§ä»¶
 			TextView tv=(TextView) view.findViewById(R.id.tvone);
 			ImageView iv=(ImageView)view.findViewById(R.id.ivone);
-			//ÉèÖÃÏÔÊ¾µÄÄÚÈİ
+			//è®¾ç½®æ˜¾ç¤ºçš„å†…å®¹
 			tv.setText(dataone.get(position));
 			iv.setImageResource(judge(dataone.get(position).length()));
 			return view;
 		}
 		
 		/**
-		 * ÓÅ»¯Àà
+		 * ä¼˜åŒ–ç±»
 		 * @author MBENBEN
 		 *
 		 */
