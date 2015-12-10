@@ -98,6 +98,7 @@ public class One extends Activity {
 		
 		/**
 		 * 优化类
+		 * 这是什么鬼= = = = = = 干嘛用的啊
 		 * @author MBENBEN
 		 *
 		 */
